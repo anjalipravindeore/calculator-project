@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNUnaoaeCnAiIot95jwbPpLhB-S0YibWyYwQ&s');
+    background-size: cover;
+    backface-visibility: hidden;
+} 
+#calc {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#content {
+    background: #97a5a3;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+#content form input {
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px;
+    cursor: pointer;
+    color: aliceblue;
+}
+#backspace:hover {
+    background-color: rgb(255, 89, 72);
+    color: white;
+}
+#res {
+    padding: 10px;
+}
+#clear:hover {
+    background-color: rgba(12, 167, 214, 0.4);
+    color: rgb(22, 2, 2);
+}
+form #output {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 0;
+}
+form #output input {
+    text-align: right;
+    flex: 1;
+    font-size: 25px;
+ 
