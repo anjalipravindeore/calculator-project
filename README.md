@@ -1,5 +1,5 @@
 # calculator-project
-A Simple Calculator for genral purpose:
+A Simple Calculator for genral calculations.The goal of this project is to develope calculator that can perform arithmetic operations, such as addition, subtraction, multiplication, and division.
 
 ## Why use it?
 
