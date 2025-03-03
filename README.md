@@ -14,7 +14,6 @@ Its useful for simple calculations.
 
 ## Built With
 
-* love
 * html
 * css
 * javascript
